@@ -16,7 +16,7 @@ public class Addition1Test extends junit.framework.TestCase{
     }
   
     public void testAddingNegativeIntegerToPositiveInteger() throws Exception {
-        int expected = -2;
+        int expected = -3;
         int actual = new Addition1().add(4, -7);
         assertEquals(expected, actual);
     }
